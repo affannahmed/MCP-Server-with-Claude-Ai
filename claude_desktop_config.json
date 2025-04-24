@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "mysql": {
+      "command": "mysql_mcp_server.exe",
+      "args": [
+        "--directory",
+        "E:/Pycharm/Scripts"
+      ],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "224488",
+        "MYSQL_DATABASE": "affan_mcpdb"
+      }
+    }
+  }
+}
